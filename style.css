@@ -298,6 +298,46 @@ body {
     background: #9333ea;
 }
 
+
+/* =========================
+   ADGUARD INFORMATION
+========================= */
+
+.adguard-info {
+    margin-top: 18px;
+    padding: 12px;
+
+    background: #111;
+    border: 1px solid #292929;
+    border-radius: 8px;
+}
+
+.adguard-info p {
+    color: #888;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+
+.adguard-link {
+    display: inline-block;
+
+    color: #a855f7;
+
+    font-size: 13px;
+    font-weight: bold;
+
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+.adguard-link:hover {
+    color: #c084fc;
+    text-decoration: underline;
+}
+
+
 .no-results {
     display: none;
 
