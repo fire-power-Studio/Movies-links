@@ -13,7 +13,7 @@ const movieSites = [
         name: "1Flex",
         description: "Movie and TV entertainment website.",
         category: "Movies & TV",
-        url:"https://www.1flex.org/"
+        url: "https://www.1flex.org/"
     },
 
     {
@@ -85,15 +85,16 @@ const movieSites = [
         category: "Movies,TV",
         url: "https://streamex.ws/home"
     },
-    
+
     {
-    name:"7movies",
-    description:"Movies, TV shows.",
-    category:"Movies & TV",
-    url:"https://7movies.ac/"
-}
+        name: "7movies",
+        description: "Movies, TV shows.",
+        category: "Movies & TV",
+        url: "https://7movies.ac/"
+    }
 
 ];
+
 
 /* =========================
    CREATE WEBSITE CARDS
@@ -147,6 +148,25 @@ function displaySites(sites) {
                     ${site.category}
                 </p>
 
+
+                <div class="adguard-info">
+
+                    <p>
+                        Use AdGuard to help block pop-up ads
+                        and intrusive ads while browsing.
+                    </p>
+
+                    <a
+                        href="https://adguard.com/en/download.html"
+                        class="adguard-link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Download AdGuard
+                    </a>
+
+                </div>
+
             </div>
 
 
@@ -160,7 +180,6 @@ function displaySites(sites) {
             </a>
 
         `;
-
 
         movieGrid.appendChild(card);
 
